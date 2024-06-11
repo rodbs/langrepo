@@ -6,11 +6,11 @@
   "tasks": {
     "build": {
       "dependsOn": [
-        "^build"
+        "^build"        
       ],
-      "outputs": [
-        ".next/**",
-        "!.next/cache/**"
+      "outputs": [       
+        "public/**",
+        "public/build/**"
       ]
     },
     "lint": {
